@@ -1,0 +1,50 @@
+nav {
+  // background-color: rgb(30, 40, 45);
+  border-radius: 3px;
+  padding-left: 15px;
+  position: fixed;
+  height: 5rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+nav > span {
+  color: white;
+  cursor: pointer;
+}
+
+.child {
+  margin: auto;
+  color: rgb(39, 144, 243);
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  color: grey !important;
+  border-color: grey !important;
+  border-radius: 75px;
+  width: 15em;
+}
+
+.par {
+  position: relative;
+}
+
+.chi {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.chi-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -1%);
+  bottom: 20px;
+}

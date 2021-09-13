@@ -1,0 +1,460 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lucifer",
+      "password": "morningStar",
+      "admin": true,
+      "issuedBooks": [],
+      "borrowLimit": 999,
+      "favouirateGenre": "Science Fiction"
+    },
+    {
+      "id": 2,
+      "name": "Harry",
+      "password": "potter",
+      "admin": false,
+      "issuedBooks": [
+        {
+          "bid": 1,
+          "renewDate": "21/12/2012",
+          "renewRemaining": false
+        }
+      ],
+      "borrowLimit": 5,
+      "favouirateGenre": "Action"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Dune",
+      "isbn": 9780441172719,
+      "author": "Frank Herbert",
+      "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for",
+      "noOfCopiesAvailable": 5,
+      "genre": "Science Fiction",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41dYX%2BWUkaL._SX281_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Book of the New Sun",
+      "isbn": 9780312890179,
+      "author": "Gene Wolfe",
+      "description": "The Book of the New Sun is unanimously acclaimed as Gene Wolfe's most remarkable work, hailed as a masterpiece of science fantasy comparable in importance to the major works of Tolkien and Lewis by Publishers Weekly, and one of the most ambitious works of speculative fiction in the twentieth century by The Magazine of Fantasy and Science Fiction. Shadow & Claw brings together the first two books of the tetralogy in one volume.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Science Fiction",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41MjvZt%2BtZL._SX331_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Moon Is a Harsh Mistress",
+      "isbn": 9780312863555,
+      "author": "Robert A. Heinlein",
+      "description": "It is a tale of revolution, of the rebellion of the former Lunar penal colony against the Lunar Authority that controls it from Earth. It is the tale of the disparate people--a computer technician, a vigorous young female agitator, and an elderly academic--who become the rebel movement's leaders. And it is the story of Mike, the supercomputer whose sentience is known only to this inner circle, and who for reasons of his own is committed to the revolution's ultimate success.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Science Fiction",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41t905kX%2BiL._SX327_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Dispossessed",
+      "isbn": 9780062421074,
+      "author": "Ursula K. Le Guin",
+      "description": "A bleak moon settled by utopian anarchists, Anarres has long been isolated from other worlds, including its mother planet, Urras—a civilization of warring nations, great poverty, and immense wealth. Now Shevek, a brilliant physicist, is determined to reunite the two planets, which have been divided by centuries of distrust. He will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have kept them apart.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Science Fiction",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41rQDHWzBJL._SX314_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Hyperion",
+      "isbn": 9780553283686,
+      "author": "Dan Simmons",
+      "description": "On the world called Hyperion, beyond the reach of galactic law, waits a creature called the Shrike. There are those who worship it. There are those who fear it. And there are those who have vowed to destroy it. In the Valley of the Time Tombs, where huge, brooding structures move backward through time, the Shrike waits for them all.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Science Fiction",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51HLw7sxnpL._SX302_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "House of Leaves",
+      "isbn": 9780375703768,
+      "author": "Mark Z. Danielewski",
+      "description": "The story remains unchanged, focusing on a young family that moves into a small home on Ash Tree Lane where they discover something is terribly wrong: their house is bigger on the inside than it is on the outside.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Horror",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41jpemUkbEL._SX369_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Shining",
+      "isbn": 9780307743657,
+      "author": "Stephen King",
+      "description": "Jack Torrance’s new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he’ll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote . . . and more sinister. And the only one to notice the strange and terrible forces gathering around the Overlook is Danny Torrance, a uniquely gifted five-year-old.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Horror",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51wr54OrhyL._SX302_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Pet Sematary",
+      "isbn": 9781501156700,
+      "author": "Stephen King",
+      "description": "When Dr. Louis Creed takes a new job and moves his family to the idyllic rural town of Ludlow, Maine, this new beginning seems too good to be true. Despite Ludlow’s tranquility, an undercurrent of danger exists here. Those trucks on the road outside the Creed’s beautiful old home travel by just a little too quickly, for one thing…as is evidenced by the makeshift graveyard in the nearby woods where generations of children have buried their beloved pets.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Horror",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51eUfSM7FeL._SX274_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "It",
+      "isbn": 9781501142970,
+      "author": "Stephen King",
+      "description": "They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into the big world to gain success and happiness. But the promise they made twenty-eight years ago calls them reunite in the same place where, as teenagers, they battled an evil creature that preyed on the city’s children. Now, children are being murdered again and their repressed memories of that terrifying summer return as they prepare to once again battle the monster lurking in Derry’s sewers.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Horror",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51xPIEYPWWL._SX326_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Hell House",
+      "isbn": 9780312868857,
+      "author": "Richard Matheson",
+      "description": "Rolf Rudolph Deutsch is going die. But when Deutsch, a wealthy magazine and newpaper publisher, starts thinking seriously about his impending death, he offers to pay a physicist and two mediums, one physical and one mental, $100,000 each to establish the facts of life after death.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Horror",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/419R8w5C3EL._SX331_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Girl on the Train",
+      "isbn": 9780857523921,
+      "author": "Paula Hawkins",
+      "description": "Rachel takes the same commuter train every morning and night. Every day she rattles down the track, flashes past a stretch of cozy suburban homes, and stops at the signal that allows her to daily watch the same couple breakfasting on their deck. She's even started to feel like she knows them. Jess and Jason, she calls them. Their life--as she sees it--is perfect. Not unlike the life she recently lost.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Suspense",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51KQwCQ326L._SX331_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Before I Go to Sleep",
+      "isbn": 9780062060563,
+      "author": "S. J. Watson",
+      "description": "S. J. Watson makes his powerful debut with this  compelling, fast-paced  psychological thriller,reminiscent of Shutter Island and Memento, in which an amnesiac who,following a mysterious accident, cannot remember her past or form newmemories, desperately tries to uncover the truth about who she is—and who she can trust.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Suspense",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51fYg6NRV2L._SX329_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Bird Box",
+      "isbn": 9780062259653,
+      "author": "Josh Malerman",
+      "description": "Something terrifying that must not be seen. One glimpse and a person is driven to deadly violence. No one knows what it is or where it came from. Five years after it began, a handful of scattered survivors remain, including Malorie and her two young children. Living in an abandoned house near the river, she has dreamed of fleeing to a place where they might be safe. Now, that the boy and girl are four, it is time to go. But the journey ahead will be terrifying: twenty miles downriver in a rowboat—blindfolded—with nothing to rely on but her wits and the children’s trained ears. One wrong choice and they will die. And something is following them. But is it man, animal, or monster?",
+      "noOfCopiesAvailable": 5,
+      "genre": "Suspense",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        },
+        {
+          "uname": "Harry",
+          "review": "Awesome Book",
+          "rating": 4.5
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51D%2BWPSbGpL._SX329_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 14,
+      "title": "And Then There Were None",
+      "isbn": 9780062490377,
+      "author": "Agatha Christie",
+      "description": "Ten . . .Ten strangers are lured to an isolated island mansion off the Devon coast by a mysterious U. N. Owen. Nine . . . At dinner a recorded message accuses each of them in turn of having a guilty secret, and by the end of the night one of the guests is dead. Eight . . . Stranded by a violent storm, and haunted by a nursery rhyme counting down one by one . . . as one by one . . . they begin to die.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Suspense",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51UKHOlO4WL._SX330_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Shadow of the Wind",
+      "isbn": 9780143034902,
+      "author": "Carlos Ruiz Zafón",
+      "description": "Barcelona, 1945: A city slowly heals in the aftermath of the Spanish Civil War, and Daniel, an antiquarian book dealer’s son who mourns the loss of his mother, finds solace in a mysterious book entitled The Shadow of the Wind, by one Julián Carax. But when he sets out to find the author’s other works, he makes a shocking discovery: someone has been systematically destroying every copy of every book Carax has written. In fact, Daniel may have the last of Carax’s books in existence. Soon Daniel’s seemingly innocent quest opens a door into one of Barcelona’s darkest secrets--an epic story of murder, madness, and doomed love.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Suspense",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51buGqmHyQL._SX324_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Pride and Prejudice",
+      "isbn": 9780141439518,
+      "author": "Jane Austen",
+      "description": "When Elizabeth Bennet first meets eligible bachelor Fitzwilliam Darcy, she thinks him arrogant and conceited; he is indifferent to her good looks and lively mind. When she later discovers that Darcy has involved himself in the troubled relationship between his friend Bingley and her beloved sister Jane, she is determined to dislike him more than ever. In the sparkling comedy of manners that follows, Jane Austen shows us the folly of judging by first impressions and superbly evokes the friendships, gossip and snobberies of provincial middle-class life. This Penguin Classics edition, based on Austen's first edition, contains the original Penguin Classics introduction by Tony Tanner and an updated introduction and notes by Viven Jones.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Romance",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41k29Fict8L._SX325_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Outlander",
+      "isbn": 9780440242949,
+      "author": "Diana Gabaldon",
+      "description": "In 1945, Claire Randall, a former combat nurse, is back from the war and reunited with her husband on a second honeymoon—when she innocently touches a boulder in one of the ancient stone circles that dot the British Isles. Suddenly she is a Sassenach—an outlander--in a Scotland torn by war and raiding border clans in the year of our Lord...1743.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Romance",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41M4s3dDk%2BL._SX304_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Jane Eyre",
+      "isbn": 9780142437209,
+      "author": "Charlotte Brontë",
+      "description": "Orphaned into the household of her Aunt Reed at Gateshead and subject to the cruel regime at Lowood charity school, Jane Eyre nonetheless emerges unbroken in spirit and integrity. She takes up the post of governess at Thornfield Hall, falls in love with Mr. Rochester, and discovers the impediment to their lawful marriage in a story that transcends melodrama to portray a woman's passionate search for a richer life than that traditionally allowed women in Victorian society.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Romance",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51-Atpe8kVL._SX316_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Gone with the Wind",
+      "isbn": 9780446675536,
+      "author": "Margaret Mitchell",
+      "description": "The tumultuous romance of Scarlett O'Hara and Rhett Butler is set against the backdrop of the elegance of the antebellum South, the ravages of the Civil War, and the desperate struggle of Reconstruction. Reprint.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Romance",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51kR-F%2BoHQL._SX311_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 20,
+      "title": "A Knight in Shining Armor",
+      "isbn": 9780743457262,
+      "author": "Jude Deveraux",
+      "description": "Abandoned by a cruel fate, lovely Dougless Montgomery lies weeping upon a cold tombstone in an English church. Suddenly, the most extraordinary man appears. It is Nicholas Stafford, Earl of Thornwyck…and according to his tombstone he died in 1564.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Romance",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51UJnXKC0%2BL._SX304_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 21,
+      "title": "The Buried Giant",
+      "isbn": 9780307455796,
+      "author": "Kazuo Ishiguro",
+      "description": "In post-Arthurian Britain, the wars that once raged between the Saxons and the Britons have finally ceased. Axl and Beatrice, an elderly British couple, set off to visit their son, whom they haven't seen in years. And, because a strange mist has caused mass amnesia throughout the land, they can scarcely remember anything about him. As they are joined on their journey by a Saxon warrior, his orphan charge, and an illustrious knight, Axl and Beatrice slowly begin to remember the dark and troubled past they all share.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Action",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51T0njvQPyL._SX322_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "isbn": 9781338299144,
+      "author": "J.K. Rowling",
+      "description": "Harry Potter has never been the star of a Quidditch team, scoring points while riding a broom far above the ground. He knows no spells, has never helped to hatch a dragon, and has never worn a cloak of invisibility. All he knows is a miserable life with the Dursleys, his horrible aunt and uncle, and their abominable son, Dudley - a great big swollen spoiled bully. Harry's room is a tiny closet at the foot of the stairs, and he hasn't had a birthday party in eleven years. But all that is about to change when a mysterious letter arrives by owl messenger: a letter with an invitation to an incredible place that Harry - and anyone who reads about him - will find unforgettable.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Action",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/61GbpzcplyL._SX326_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 23,
+      "title": "A Game of Thrones",
+      "isbn": 9780553103540,
+      "author": "George R. R. Martin",
+      "description": "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert’s name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Action",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51RbpshZ-LL._SX326_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 24,
+      "title": "House of Spies",
+      "isbn": 9780062354372,
+      "author": "Daniel Silva",
+      "description": "Four months after the deadliest attack on the American homeland since 9/11, terrorists leave a trail of carnage through London’s glittering West End. The attack is a brilliant feat of planning and secrecy, but with one loose thread. ",
+      "noOfCopiesAvailable": 5,
+      "genre": "Action",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51btZVdM-nL._SX330_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Recursion",
+      "isbn": 9781509866663,
+      "author": "Blake Crouch",
+      "description": "Memory makes reality. That’s what New York City cop Barry Sutton is learning as he investigates the devastating phenomenon the media has dubbed False Memory Syndrome—a mysterious affliction that drives its victims mad with memories of a life they never lived.",
+      "noOfCopiesAvailable": 5,
+      "genre": "Action",
+      "reviews": [
+        {
+          "uname": "Harry",
+          "review": "Good Book",
+          "rating": 4.7
+        }
+      ],
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51JKU9EV9mL._SX323_BO1,204,203,200_.jpg"
+    }
+  ]
+}

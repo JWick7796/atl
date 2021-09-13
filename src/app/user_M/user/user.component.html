@@ -1,0 +1,91 @@
+<!--header-->
+<nav class="navbar navbar-expand-lg navbar-dark black">
+  <span class="fa fa-bars fa-2x" (click)="display = true"></span>
+  <div class="child">ATL</div>
+</nav>
+
+<!--sidenav-->
+<p-sidebar
+  class="par"
+  [(visible)]="display"
+  [baseZIndex]="10000"
+  [showCloseIcon]="false"
+>
+  <div class="chi">
+    <div>
+      Refine Search
+    </div>
+    <div class="ui-g" style="width:250px;margin-bottom:10px">
+      <div class="ui-g-12">
+        <p-checkbox
+          name="categories"
+          value="Science Fiction"
+          label="Science Fiction"
+          [(ngModel)]="selectedCategories"
+          (onChange)="categoryFilterSelect()"
+        ></p-checkbox>
+      </div>
+      <div class="ui-g-12">
+        <p-checkbox
+          name="categories"
+          value="Horror"
+          label="Horror"
+          [(ngModel)]="selectedCategories"
+          (onChange)="categoryFilterSelect()"
+        ></p-checkbox>
+      </div>
+      <div class="ui-g-12">
+        <p-checkbox
+          name="categories"
+          value="Suspense"
+          label="Suspense"
+          [(ngModel)]="selectedCategories"
+          (onChange)="categoryFilterSelect()"
+        ></p-checkbox>
+      </div>
+      <div class="ui-g-12">
+        <p-checkbox
+          name="categories"
+          value="Romance"
+          label="Romance"
+          [(ngModel)]="selectedCategories"
+          (onChange)="categoryFilterSelect()"
+        ></p-checkbox>
+      </div>
+      <div class="ui-g-12">
+        <p-checkbox
+          name="categories"
+          value="Action"
+          label="Action"
+          [(ngModel)]="selectedCategories"
+          (onChange)="categoryFilterSelect()"
+        ></p-checkbox>
+      </div>
+    </div>
+
+    <div class="chi-bottom">
+      <button type="button" class="btn btn-outline-primary waves-effect">
+        My Books
+      </button>
+      <button type="button" class="btn btn-outline-primary waves-effect">
+        Profile
+      </button>
+      <button type="button" class="btn btn-outline-primary waves-effect">
+        Logout
+      </button>
+    </div>
+  </div>
+</p-sidebar>
+
+<button
+  type="text"
+  (click)="display = true"
+  pButton
+  icon="pi pi-plus"
+  label="Show"
+></button>
+
+<!-- Child Routes -->
+<div style="margin-top: 10%">
+  <router-outlet></router-outlet>
+</div>
